@@ -1,0 +1,33 @@
+a, p{
+    text-decoration: none;
+    color: white;
+}
+
+div{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+td, p{
+    padding-left: 100px;
+}
+
+.select{
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width:600px){
+    td, p{
+        padding: 5px;
+    }
+    .select{
+        margin-left: 5px;
+    }
+}
